@@ -19,3 +19,9 @@ Hor Reloading:
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
+
+
+React 	-> Hey CourseAction, someone clicked this "Save Course" button.
+Action 	-> Thanks React! I will dispatch an action so reducers that care can update state.
+Reducer -> Ah, thanks action. I see you passed me the current state and the action to perform. I'll make a new copy of the state and return it.
+Store 	-> Thanks for updating the state reducer. I'll make sure that all connected components are aware. 
